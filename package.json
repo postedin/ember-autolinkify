@@ -1,6 +1,6 @@
 {
   "name": "ember-autolinkify",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon"
@@ -43,7 +43,7 @@
     "loader.js": "^4.2.3"
   },
   "engines": {
-    "node": "^4.5 || 6.* || >= 7.*"
+    "node": "^4.5 || 6.* || >= 7.* || >= 8.*"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
