@@ -22,10 +22,14 @@ Will be: `<a href="https://google.com/">google.com</a>`
 
 ## Configuration
 
+### Defaults and available options
+
+https://github.com/gregjacobs/Autolinker.js#options
+
 ### Global configuration
 ```js
-ENV.APP.purify = {
-  // Refer to various config options in the Autolink.js README
+ENV.APP.linkify = {
+  // Refer to various config options in the Autolinker.js README
 };
 ```
 
@@ -37,10 +41,6 @@ You can pass any of the options into the helper.
   {{linkify 'https://google.com' newWindow=false}}
 ```
 Will be: `<a href="https://google.com/">google.com</a>`
-
-### Defaults and available options
-
-https://github.com/gregjacobs/Autolinker.js#options
 
 ## Installation for Development
 
