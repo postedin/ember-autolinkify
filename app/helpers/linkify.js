@@ -3,7 +3,7 @@ import config from '../config/environment';
 
 export function configuredLinkify(text, options) {
   let mergedOptions = {};
-  Ember.assign(mergedOptions, config.APP.linkify, options);
+  Ember.assign(mergedOptions, config.APP ? config.APP.linkify : {}, options);
 
   return linkify(text, mergedOptions);
 }
