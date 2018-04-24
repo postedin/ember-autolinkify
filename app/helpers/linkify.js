@@ -1,6 +1,5 @@
 import { linkify } from 'ember-autolinkify/helpers/linkify';
 import config from '../config/environment';
-import { htmlSafe } from '@ember/string';
 
 export function configuredLinkify(text, options) {
   let mergedOptions = {};
@@ -9,4 +8,4 @@ export function configuredLinkify(text, options) {
   return linkify(text, mergedOptions);
 }
 
-export default Ember.Helper.helper(function ([text], options) { return htmlSafe(configuredLinkify(text, options)); });
+export default Ember.Helper.helper(function ([text], options) { return configuredLinkify(text, options); });

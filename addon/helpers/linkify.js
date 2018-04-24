@@ -6,4 +6,4 @@ export function linkify(text, options) {
   return Autolinker.link(text, options);
 }
 
-export default Ember.Helper.helper(function ([text], options) { return htmlSafe(linkify(text, options)); });
+export default Ember.Helper.helper(function ([text], options) { return linkify(text, options); });
