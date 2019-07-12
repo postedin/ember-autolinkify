@@ -1,4 +1,3 @@
-/* eslint-env node */
 'use strict';
 var path = require('path');
 var Funnel = require('broccoli-funnel');
@@ -6,7 +5,7 @@ var mergeTrees = require('broccoli-merge-trees');
 var resolve = require('resolve');
 
 module.exports = {
-  name: 'ember-autolinkify',
+  name: require('./package').name,
 
   included: function(app) {
     this._super.included.apply(this, arguments);

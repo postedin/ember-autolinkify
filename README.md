@@ -2,7 +2,6 @@
 
 This addon is a template helper for https://github.com/gregjacobs/Autolinker.js.
 
-## Installation
 
 * `ember install ember-autolinkify`
 
@@ -48,17 +47,42 @@ Will be: `<a href="https://google.com/">google.com</a>`
 * `cd ember-autolinkify`
 * `yarn install`
 
-## Running
+* Ember.js v2.18 or above
+* Ember CLI v2.13 or above
+* Node.js v8 or above
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
 
-## Running Tests
+Installation
+------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 * `yarn test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
+=======
+```
+ember install my-addon
+```
+>>>>>>> 15ec31c... message
 
-## Building
 
+<<<<<<< HEAD
 * `ember build`
+=======
+Usage
+------------------------------------------------------------------------------
+
+[Longer description of how to use the addon in apps.]
+
+
+Contributing
+------------------------------------------------------------------------------
+
+See the [Contributing](CONTRIBUTING.md) guide for details.
+
+
+License
+------------------------------------------------------------------------------
+
+This project is licensed under the [MIT License](LICENSE.md).
+>>>>>>> 15ec31c... message
