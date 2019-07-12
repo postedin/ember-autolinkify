@@ -1,5 +1,4 @@
 'use strict';
-var path = require('path');
 var Funnel = require('broccoli-funnel');
 var mergeTrees = require('broccoli-merge-trees');
 var resolve = require('resolve');
