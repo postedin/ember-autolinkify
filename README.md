@@ -55,34 +55,6 @@ Will be: `<a href="https://google.com/">google.com</a>`
 Installation
 ------------------------------------------------------------------------------
 
-<<<<<<< HEAD
-* `yarn test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-=======
 ```
-ember install my-addon
+ember install ember-autolinkify
 ```
->>>>>>> 15ec31c... message
-
-
-<<<<<<< HEAD
-* `ember build`
-=======
-Usage
-------------------------------------------------------------------------------
-
-[Longer description of how to use the addon in apps.]
-
-
-Contributing
-------------------------------------------------------------------------------
-
-See the [Contributing](CONTRIBUTING.md) guide for details.
-
-
-License
-------------------------------------------------------------------------------
-
-This project is licensed under the [MIT License](LICENSE.md).
->>>>>>> 15ec31c... message
