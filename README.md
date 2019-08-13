@@ -1,4 +1,4 @@
-# ember-autolinkify
+# Ember Autolinkify
 
 This addon is a template helper for https://github.com/gregjacobs/Autolinker.js.
 
